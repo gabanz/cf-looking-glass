@@ -1,0 +1,9 @@
+{
+    "private": true,
+    "name": "cf-looking-glass",
+    "version": "1.0.0",
+    "description": "Run traceroute from Cloudflare data centers, invoked from API via Workers.",
+    "main": "index.js",
+    "author": "Faiz Azhar <faiz@cloudflare.com>",
+    "license": "MIT"
+}

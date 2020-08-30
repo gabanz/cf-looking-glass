@@ -1,0 +1,7 @@
+name = "cf-looking-glass"
+type = "javascript"
+account_id = ""
+zone_id = ""
+workers_dev = false
+route = ""
+vars = {ACCOUNT_ID = "", EMAIL = ""}
