@@ -9,14 +9,12 @@ addEventListener("fetch", event => {
   let targets = ['1.1.1.1']
   let colos = []
   let options = {
-    "packets_per_ttl": 5, //number of packets sent at each TTL. min:0, max:10
-    "packet_type": "tcp", //icmp, tcp, udp, gre, gre+icmp
-    "max_ttl": 15, //min:0, max:64
-    "wait_time": 1, //time in seconds to wait for a response. min:1, max:5
-    "port": 443 } // For UDP and TCP, specifies the destination port. 
-                  // For ICMP, specifies the initial ICMP sequence value.
-                  // min/default:0 (will choose the best value to use for each protocol), max:65535
-
+    "packets_per_ttl": 5,
+    "packet_type": "tcp",
+    "max_ttl": 15,
+    "wait_time": 1,
+    "port": 443
+  }
 
   async function eventHandler(event) {
     try {
